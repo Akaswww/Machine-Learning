@@ -1,3 +1,5 @@
 import pandas as pd
 
-df=pd.read_csv('titanic.csv')
+url = "https://raw.githubusercontent.com/Akaswww/Machine-Learning/main/titanic.csv"
+df = pd.read_csv(url)
+print(df.head())
